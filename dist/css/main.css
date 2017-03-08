@@ -1,0 +1,66 @@
+@import url(../fonts/opensans/opensans.css);
+
+body {
+	font-family: "Open Sans", sans-serif;
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+/* Size of elements */
+
+.circle-box {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	text-align: center;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.circle-box svg {
+	width: 100%;
+}
+
+/* Style of percent text */
+
+.percent {
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	font-weight: 800;
+	font-size: 50px;
+	color: #00a99d;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+/* Style of svg circles */
+
+.circle__a {
+	fill: none;
+	stroke: #00a99d;
+	stroke-width: 20px;
+}
+
+.circle__b {
+	stroke: #999;
+	fill: none;
+}
+

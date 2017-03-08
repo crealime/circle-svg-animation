@@ -1,0 +1,44 @@
+@import '../fonts/opensans/opensans.css'
+@import 'vars'
+
+body
+	font-family: $t1
+	overflow: hidden
+
+.wrapper
+	width: 100vw
+	height: 100vh
+	display: flex
+	justify-content: space-around
+	align-items: center
+
+/* Size of elements */
+.circle-box
+	width: 220px
+	height: 220px
+	position: relative
+	text-align: center
+	transform: rotate(-90deg)
+	svg
+		width: 100%
+
+/* Style of percent text */
+.percent
+	width: 100%
+	position: absolute
+	top: 80px
+	font-weight: 800
+	font-size: 50px
+	color: $c2
+	transform: rotate(90deg)
+
+/* Style of svg circles */
+.circle__a
+	fill: none
+	stroke: $c2
+	stroke-width: 20px
+
+.circle__b
+	stroke: $c1
+	fill: none
+
