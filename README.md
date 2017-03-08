@@ -12,4 +12,4 @@ Change the custom attribute data-percent for setting your percent value.
 <div class="circle-box" data-percent="58"></div>
 ```
 #### Demo:
-<a href="http://webmaker.work/circle" target="_blank">webmaker.work</a>
+<a href="http://webmaker.work/circle" target="_blank">http://webmaker.work/circle</a>
