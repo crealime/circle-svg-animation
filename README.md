@@ -9,7 +9,7 @@
 Change the custom attribute data-percent and data-time for setting your percent and time value.
 <br>
 ```html
-<div class="circle-box" data-percent="58" data-time="1500"></div>
+<div class="circle-box" data-percent="58" data-time="2000"></div>
 <div class="circle-box" data-percent="72" data-time="3000"></div>
 <div class="circle-box" data-percent="100" data-time="2000"></div>
 ```
