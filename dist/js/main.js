@@ -12,7 +12,7 @@ $('.percent').text(nullPercent + '%');
 
 $('.circle__a').css({'stroke-dasharray' : circleLength, 'stroke-dashoffset' : circleLength});
 
-$('.circle-box').each(function(index) {
+myCircleBox.each(function(index) {
 	let that = $(this);
 		myPercent = +that.attr('data-percent'),
 		myTime = +that.attr('data-time'),
