@@ -6,10 +6,10 @@
 <br>
 ## Plug css, js and just add short code in your html.
 <br>
-Change the custom attribute data-percent and data-time for setting your percent value.
+Change the custom attribute data-percent and data-time for setting your percent and time value.
 <br>
 ```html
-<div class="circle-box" data-percent="58" data-time="1500></div>
+<div class="circle-box" data-percent="58" data-time="2000></div>
 ```
 #### Demo:
 <a href="http://webmaker.work/circle" target="_blank">http://webmaker.work/circle</a>
