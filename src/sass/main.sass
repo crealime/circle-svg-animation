@@ -8,9 +8,36 @@ body
 .wrapper
 	width: 100vw
 	height: 100vh
+	position: relative
 	display: flex
 	justify-content: space-around
 	align-items: center
+
+.a-git
+	display: block
+	position: absolute
+	bottom: 20px
+	opacity: .7
+	transition-duration: .3s
+	text-decoration: none
+	color: #000
+
+	&:hover
+		opacity: 1
+
+.a-git__bg
+	width: 16px
+	height: 16px
+	background-image: url(../img/github.svg)
+	background-repeat: no-repeat
+	background-size: cover
+	display: inline-block
+
+.a-git__text
+	font-size: rem(12)
+	display: inline-block
+	margin: 0 0 0 5px
+
 
 /* Size of elements */
 .circle-box

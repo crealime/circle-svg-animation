@@ -8,6 +8,7 @@ body {
 .wrapper {
 	width: 100vw;
 	height: 100vh;
+	position: relative;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -19,6 +20,36 @@ body {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+}
+
+.a-git {
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	opacity: .7;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	text-decoration: none;
+	color: #000;
+}
+
+.a-git:hover {
+	opacity: 1;
+}
+
+.a-git__bg {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/github.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+
+.a-git__text {
+	font-size: 0.75rem;
+	display: inline-block;
+	margin: 0 0 0 5px;
 }
 
 /* Size of elements */
