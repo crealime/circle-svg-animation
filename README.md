@@ -9,7 +9,7 @@
 Change the custom attribute data-percent and data-time for setting your percent and time value.
 <br>
 ```html
-<div class="circle-box" data-percent="58" data-time="2000></div>
+<div class="circle-box" data-percent="58" data-time="2000"></div>
 ```
 #### Demo:
 <a href="http://webmaker.work/circle" target="_blank">http://webmaker.work/circle</a>
