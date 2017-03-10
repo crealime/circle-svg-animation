@@ -1,5 +1,7 @@
 @import url(../fonts/opensans/opensans.css);
 
+/* Styles for Example */
+
 body {
 	font-family: "Open Sans", sans-serif;
 	overflow: hidden;
@@ -51,6 +53,8 @@ body {
 	display: inline-block;
 	margin: 0 0 0 5px;
 }
+
+/* End of Styles for Example */
 
 /* Size of elements */
 
