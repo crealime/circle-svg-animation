@@ -14,4 +14,4 @@ Change the custom attribute data-percent and data-time for setting your percent 
 <div class="circle-box" data-percent="100" data-time="2000"></div>
 ```
 <h4>Demo:</h4>
-<a href="http://webmaker.work/circle" target="_blank">http://webmaker.work/circle</a>
+<a href="http://webmaker.work/circle">http://webmaker.work/circle</a>
